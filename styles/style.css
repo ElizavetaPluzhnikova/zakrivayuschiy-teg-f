@@ -41,7 +41,7 @@
     );
   background-size: cover;
   background-attachment: fixed;
-  font-variation-settings: var(--weight-main-text);
+  font-variation-settings: 'wqht' var(--weight-main-text);
 }
 
 .header {
