@@ -110,7 +110,7 @@
   padding: 0;
   cursor: pointer;
   position: relative;
-  transition: opacity 0.3s ease;
+  transition: opacity .3s ease;
 }
 
 .theme-menu__button:disabled {
@@ -201,7 +201,7 @@
   }
 }
 
-.logo-card {
+.image-card {
   display: block;
   width: 100%;
   height: 100%;
@@ -209,7 +209,7 @@
   object-position: center;
 }
 
-.logo__zero-sprint {
+.image__zero-sprint {
   filter: invert(100%);
 }
 
@@ -222,7 +222,7 @@
   font-variation-settings: "wght" var(--weight-main-heading)
 }
 
-.text__block {
+.section__text {
   color: var(--accent-color);
   font-family: inherit;
   font-size: var(--font-size);
@@ -232,7 +232,7 @@
   line-height: 21px;
 }
 
-.text__block-memories {
+.section__text-memories {
   padding-top: 27px;
 }
 
@@ -240,7 +240,7 @@
   display: flex;
   justify-content: flex-end;
   padding-right: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
   padding-top: 25px;
   gap: 5px;
 }
@@ -269,7 +269,7 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  transition: 0.5s;
+  transition: .5s;
   border: 2px solid var(--accent-color);
   display: flex;
   align-items: center;
@@ -307,31 +307,31 @@
   line-height: 90%;
 }
 
-.logo__one-sprint {
+.image__one-sprint {
   filter: hue-rotate(0.9turn);
 }
 
-.logo__onefinish-sprint {
+.image__onefinish-sprint {
   filter: sepia(0.9);
 }
 
-.logo__two-sprint {
+.image__two-sprint {
   filter: grayscale(100%);
 }
 
-.logo__twofinish-sprint {
+.image__twofinish-sprint {
   filter: brightness(40%) contrast(150%);
 }
 
-.logo__three-sprint {
+.image__three-sprint {
   filter: hue-rotate(0.2turn);
 }
 
-.logo__threefinish-sprint {
+.image__threefinish-sprint {
   filter: blur(1px);
 }
 
-.logo__four-sprint {
+.image__four-sprint {
   filter: opacity(70%);
 }
 
@@ -363,7 +363,7 @@
   align-items: center;
 }
 
-.text_modal {
+.dialog__text {
   line-height: 21px;
   font-family: var(--accent-font);
   font-variation-settings: "wght" var(--weight-main-text);
@@ -402,55 +402,55 @@ dialog::backdrop {
 
 .like-icon .core {
   fill: var(--background-color);
-  transition: fill 0.3s linear 0.03s;
+  transition: fill .3s .03s;
 }
 
 .like-icon:hover .core {
   fill: var(--accent-color);
-  transition: fill 0.3s linear;
+  transition: fill .3s;
 }
 
 .like-icon .main-body {
   fill: var(--background-color);
-  transition: fill 0.3s linear;
+  transition: fill .3s;
 }
 
 .like-icon:hover .main-body {
   fill: var(--accent-color);
-  transition: fill 0.3s linear 0.05s;
+  transition: fill .3s .05s;
 }
 
 .like-icon:active .core {
   fill: var(--color-heart-sparks);
-  transition: fill 0.3s linear;
+  transition: fill .3s;
 }
 
 .like-icon:active .main-body {
   fill: var(--color-heart-sparks);
-  transition: fill 0.3s linear 0.05s;
+  transition: fill .3s .05s;
 }
 
 .like-icon.is-liked .core {
   fill: var(--color-heart-sparks);
-  transition: fill 0.3s linear;
+  transition: fill .3s;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--color-heart-sparks);
-  transition: fill 0.3s linear 0.03s;
+  transition: fill .3s .03s;
 }
 
 .like-icon.is-liked .contour {
   fill: var(--color-heart-sparks);
-  transition: fill 0.3s linear 0.05s;
+  transition: fill .3s .05s;
 }
 
 .like-icon.is-liked .heart {
-  animation: heart 0.3s ease-in 0.1s alternate;
+  animation: heart .3s ease-in .1s alternate;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks ease-in 0.3s 0.3s alternate;
+  animation: sparks ease-in .3s .3s alternate;
 }
 
 .sparks {
